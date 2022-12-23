@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Create Account"
+    android:textColor="@color/black"
+    android:textSize="40dp"
+    android:textStyle="bold"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="50dp"
+    />
+
+<!--create an edit text for username-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/username"
+        android:hint="Username"
+        android:textSize="30dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="35dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/email"
+        android:hint="Email"
+        android:textSize="30dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="35dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/password"
+        android:hint="password"
+        android:textSize="30dp"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edittextbackground"
+        android:paddingLeft="35dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/repassword"
+        android:hint="confirm password"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittextbackground"
+        android:paddingLeft="35dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtsolde"
+        android:hint="Solde"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittextbackground"
+        android:paddingLeft="35dp"
+        />
+
+<!--    create button for register/Sign Up-->
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/signup"
+        android:text="register"
+        android:textSize="25dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/signin"
+        android:text="already have an account"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="#00FFEB3B"
+        android:layout_marginBottom="30dp"
+        />
+
+</LinearLayout>

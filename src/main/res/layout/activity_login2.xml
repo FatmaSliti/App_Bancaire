@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:textColor="@color/black"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="50dp"
+        />
+
+    <!--create an edit text for username-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/username"
+        android:hint="Username"
+        android:textSize="30dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="35dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/password"
+        android:hint="password"
+        android:textSize="30dp"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edittextbackground"
+        android:paddingLeft="35dp"
+        />
+
+
+
+    <!--    create button for register/Sign Up-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/signIn"
+        android:text="Sign in"
+        android:textSize="25dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/account"
+        android:text="don't have an account ? create account"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#00000000"
+        android:layout_marginBottom="30dp"
+        />
+
+
+</LinearLayout>
